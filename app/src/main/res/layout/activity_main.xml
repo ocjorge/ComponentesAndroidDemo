@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1) Abrir DetailActivity (Intent explícito)" />
+
+    <Button
+        android:id="@+id/btnService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) Iniciar Foreground Service" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2b) Detener Service" />
+
+    <Button
+        android:id="@+id/btnContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4) Leer 1 contacto (Content Provider)" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5) Compartir texto (Intent implícito)" />
+
+</LinearLayout>
