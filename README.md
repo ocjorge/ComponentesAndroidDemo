@@ -84,8 +84,6 @@ Abre el *chooser* para compartir con apps instaladas.
 
 ## Estructura del proyecto (principal)
 
-````
-
 app/src/main/
 ├─ java/com/example/componentesandroiddemo/
 │   ├─ MainActivity.java
@@ -97,7 +95,6 @@ app/src/main/
 │   └─ activity_detail.xml
 └─ AndroidManifest.xml
 
-```
 
 ---
 
